@@ -40,3 +40,65 @@ header img {
     white-space: nowrap;
     opacity: 0.5;
 }
+
+/* section__sellNFt */
+
+
+.section__sellNFt {
+    display: flex;
+    flex-flow: column;
+    position: relative;
+}
+
+.section__sellNFt h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+    color: #000000;
+    text-shadow: -5px 5px 0px #ffffff;
+    padding-top: 117px;
+    margin: 0 auto;
+}
+
+.section__sellNFt p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #532C59;
+    padding-top: 32px;
+    margin-bottom: 32px;
+}
+
+.section__sellNFt button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 114px;
+    padding: 16px 20px;
+    background: #532C59;
+    border-radius: 15px;
+    margin: 0 auto;
+    color: #ffffff;
+    font-family: 'Syne';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    white-space: nowrap;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.sellNFt__bg {
+    position: absolute;
+    width: 1440px;
+    height: 499px;
+    left: 0px;
+    top: 57px;
+    background: radial-gradient(50% 50% at 50% 50%, #E36CE6 0%, rgba(255, 255, 255, 0.00) 100%);
+    opacity: 0.4;
+    filter: blur(116px);
+    z-index: -1;
+}
