@@ -470,3 +470,48 @@ header img {
 .ready__wrapper img:nth-child(2) {
     right: 0;
 }
+
+/* footer */
+
+footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+footer .top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 41px;
+    border-bottom: 1px solid #CCD5DF;
+}
+
+footer .top a {
+    font-family: 'Space Grotesk';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    opacity: 0.5;
+    text-decoration: none;
+    margin-right: 24px;
+}
+
+footer .top .a__wrapper a:last-child {
+    margin-right: 0px;
+}
+
+footer .bottom {
+    font-family: 'Space Grotesk';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.5;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
